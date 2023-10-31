@@ -4,8 +4,6 @@ import Navbar from 'react-bootstrap/Navbar';
 import { useState, useEffect } from 'react';
 import logo from '../assets/img/logo.svg';
 import navIcon1 from '../assets/img/nav-icon1.svg';
-import navIcon2 from '../assets/img/nav-icon2.svg';
-import navIcon3 from '../assets/img/nav-icon3.svg';
 
 function BasicExample() {
   const [activeLink, setActiveLink] = useState('home')
@@ -44,7 +42,7 @@ function BasicExample() {
             <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={()=> onUpdateActiveLink('projects')}>Projects</Nav.Link>
           </Nav>
           <span className='navbar-text'>
-            <div className='socials'>
+            <div className="social-icon">
               <a href='#'><img src={navIcon1} alt='linkedin-logo'/></a>
             </div>
             <button className='connect-button' onClick={()=> console.log('It works!')}>Let's connect!</button>
