@@ -5,7 +5,7 @@ import { useState, useEffect } from 'react';
 import logo from '../assets/img/logo.svg';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 
-function BasicExample() {
+function MyNavbar() {
   const [activeLink, setActiveLink] = useState('home')
   const [scrolled, setScrolled] = useState(false)
 
@@ -53,4 +53,4 @@ function BasicExample() {
   );
 }
 
-export default BasicExample;
+export default MyNavbar;

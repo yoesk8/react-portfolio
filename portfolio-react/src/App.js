@@ -1,13 +1,15 @@
 import './App.css';
-import BasicExample from './components/BasicExample';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import MyNavbar from './components/MyNavbar';
+import Banner from './components/Banner';
 
 
 
 function App() {
   return (
     <div className="App">
-      <BasicExample/>
+      <MyNavbar/>
+      <Banner/>
     </div>
   );
 }
